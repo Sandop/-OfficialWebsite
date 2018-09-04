@@ -1,0 +1,848 @@
+/* 推荐资讯部分 */
+div#recom-infomation {
+    width:  100%;
+    height:  auto;
+}
+
+.recom-info-box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding-bottom: 150px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+.recom-info-top {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 80px 0 75px;
+    border-bottom: 2px solid #d5d5d8;
+    text-align:  center;
+}
+
+.recom-info-titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  43px;
+}
+
+.recom-info-titleE {
+    width:  100%;
+    height:  22px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  22px;
+    text-align:  center;
+}
+
+.recom-info-content {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.recom-info-content ul {
+    overflow:  hidden;
+}
+
+li.recom-info-list {
+    float:  left;
+    width: 367px;
+    height:  auto;
+}
+
+.recom-info-img {
+    overflow:  hidden;
+    width:  367px;
+    height:  254px;
+    cursor:  pointer;
+}
+
+.recom-info-img img {
+    width:  100%;
+    height:  100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.recom-info-img img:hover {
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.recom-info-title-box {
+    overflow:  hidden;
+    width:  100%;
+    height: 40px;
+    margin-top: 6px;
+}
+
+.recom-info-title {
+    width:  100%;
+    height:  100%;
+    font-size:  18px;
+    line-height:  40px;
+    text-align:  center;
+}
+
+.recom-info-title a {
+    display:  block;
+    overflow:  hidden;
+    width:  100%;
+    height:  100%;
+    color:  #22202b;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.recom-info-title a:hover{
+	text-decoration: underline;
+}
+
+.recom-info-times {
+    display:  none;
+    height: 40px;
+    color:  #999999;
+    font-size:  12px;
+    line-height:  40px;
+    text-align:  center;
+}
+
+.recom-info-deesc {
+    overflow:  hidden;
+    width:  100%;
+    height: 40px;
+    padding:  0 9px;
+    color:  #858585;
+    font-size: 14px;
+    line-height:  20px;
+    text-align:  left;
+    box-sizing:  border-box;
+}
+
+.recom-info-more {
+    overflow:  hidden;
+    width: 103px;
+    height: 40px;
+    margin: 28px auto 0;
+    border: 3px solid #000;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.recom-info-more:hover{
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+.recom-info-more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #22202b;
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.recom-info-more:hover a {
+    background:  #22202b;
+    color: #feeabd;
+}
+
+.recom-info-content ul li:first-child {
+    width:  100%;
+    height:  auto;
+    margin-bottom: 50px;
+}
+
+.recom-info-content ul li:nth-child(3) {
+    margin: 0 49px;
+}
+
+.recom-info-content ul li:first-child .recom-info-img {
+    display:  none;
+}
+
+.recom-info-content ul li:first-child .recom-info-title {
+    float:  left;
+    width: 1000px;
+    text-align:  left;
+}
+
+.recom-info-content ul li:first-child .recom-info-times {
+    display:  block;
+    float:  right;
+}
+
+.recom-info-content ul li:first-child .recom-info-deesc {
+    padding: 0;
+}
+
+.recom-info-content ul li:first-child .recom-info-more {
+    display:  none;
+}
+/* 推荐资讯部分结束 */
+
+/* 公司和行业资讯部分 */
+div#company-industry-information {
+    width: 100%;
+    height: auto;
+}
+
+.company-industry-info-box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 150px 0;
+    border-bottom: 2px solid #d5d5d8;
+}
+/* company-informations start */
+.company-info-box {
+    float: left;
+    width:  600px;
+    height:  auto;
+    padding-right:  65px;
+    box-sizing:  border-box;
+}
+
+.company-info-top {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.company-info-titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+}
+
+.company-info-titleE {
+    width: 100%;
+    height: 18px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.company-info-content {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.company-info-content ul {
+    overflow:  hidden;
+}
+
+li.company-info-list {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.company-info-title {
+    position: relative;
+    width:  100%;
+    height:  26px;
+    padding-left: 8px;
+    font-size:  14px;
+    line-height:  26px;
+    text-align:  left;
+    box-sizing:  border-box;
+}
+
+.company-info-title::after {
+    position:  absolute;
+    top: 50%;
+    left:  0;
+    content:  "";
+    width:  2px;
+    height:  2px;
+    border-radius:  50%;
+    background: #22202b;
+}
+
+.company-info-title a {
+    overflow:  hidden;
+    width:  100%;
+    height: 100%;
+    color:  #22202b;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.company-info-title a:hover{
+	text-decoration: underline;
+}
+
+.company-info-desc {
+    display:  none;
+    width:  100%;
+    height:  auto;
+    color:  #858585;
+    font-size:  14px;
+    text-align:  left;
+    line-height: 18px;
+}
+
+.company-info-content ul li:first-child {
+    padding-bottom: 30px;
+}
+
+.company-info-content ul li:first-child .company-info-title {
+    overflow:  hidden;
+    width:  100%;
+    height: 72px;
+    padding-left:  0;
+    font-size:  22px;
+    line-height:  72px;
+    background:  none;
+}
+
+.company-info-content ul li:first-child .company-info-desc {
+    display:  block;
+}
+/* company-informations end */
+/* industry-informations start */
+.industry-info-box {
+    float: left;
+    width:  600px;
+    height:  auto;
+    padding-left:  65px;
+    box-sizing:  border-box;
+}
+
+.industry-info-top {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.industry-info-titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+}
+
+.industry-info-titleE {
+    width: 100%;
+    height: 18px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.industry-info-content {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.industry-info-content ul {
+    overflow:  hidden;
+}
+
+li.industry-info-list {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.industry-info-title {
+    position: relative;
+    width:  100%;
+    height:  26px;
+    padding-left: 8px;
+    font-size:  14px;
+    line-height:  26px;
+    text-align:  left;
+    box-sizing:  border-box;
+}
+
+.industry-info-title::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #22202b;
+}
+
+.industry-info-title a {
+    overflow:  hidden;
+    width:  100%;
+    height: 100%;
+    color:  #22202b;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.industry-info-title a:hover{
+	text-decoration: underline;
+}
+
+.industry-info-desc {
+    display:  none;
+    width:  100%;
+    height:  auto;
+    color:  #858585;
+    font-size:  14px;
+    text-align:  left;
+    line-height: 18px;
+}
+
+.industry-info-content ul li:first-child {
+    padding-bottom: 30px;
+}
+
+.industry-info-content ul li:first-child .industry-info-title {
+    overflow:  hidden;
+    width:  100%;
+    height: 72px;
+    padding-left:  0;
+    font-size:  22px;
+    line-height:  72px;
+    background:  none;
+}
+
+.industry-info-content ul li:first-child .industry-info-desc {
+    display:  block;
+}
+/* industry-informations end */
+/* 公司和行业资讯部分结束 */
+
+/*furniture-encyclopedia start*/
+div#furniture-encyclopedia {
+    width: 100%;
+    height: auto;
+}
+
+.furniture-encyclopedia-box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+.furniture-encyclopedia-top {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 60px;
+    text-align: center;
+}
+
+.furniture-encyclopedia-titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 43px;
+}
+
+.furniture-encyclopedia-titleE {
+    width: 100%;
+    height: 22px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.furniture-encyclopedia-content {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.furniture-encyclopedia-content ul {
+    overflow:  hidden;
+}
+
+li.furniture-encyclopedia-list {
+    float:  left;
+    overflow:  hidden;
+    width:  600px;
+    height:  auto;
+    padding-top: 15px;
+    padding-left:  60px;
+    box-sizing:  border-box;
+}
+
+.fur-ency-list-img {
+    display: none;
+    overflow:  hidden;
+    width:  600px;
+    height:  335px;
+}
+
+.fur-ency-list-img img {
+    width:  100%;
+    height:  100%;
+ 	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fur-ency-list-img img:hover {
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.fur-ency-list-title {
+    overflow:  hidden;
+    width:  100%;
+    height:  60px;
+    font-size:  22px;
+    text-align:  left;
+    line-height:  60px;
+}
+
+.fur-ency-list-title a {
+    display: block;
+    overflow: hidden;
+    width:  100%;
+    height:  100%;
+    color:  #22202b;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.fur-ency-list-title a:hover{
+	text-decoration: underline;
+}
+
+.fur-ency-list-desc {
+    width:  100%;
+    height:  auto;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  left;
+}
+
+.fur-ency-list-time {
+    width:  100%;
+    height:  24px;
+    color:  #ccc;
+    font-size:  12px;
+    text-align:  left;
+    line-height:  24px;
+}
+
+.furniture-encyclopedia-content ul li:first-child {
+    padding: 0px;
+}
+
+.furniture-encyclopedia-content ul li:first-child .fur-ency-list-img {
+    display:  block;
+}
+
+.furniture-encyclopedia-content ul li:first-child .fur-ency-list-time {
+    margin-top: 20px;
+}
+/*furniture-encyclopedia end*/
+/*brand-selection start*/
+div#brand-selection {
+    width: 100%;
+    height: auto;
+}
+
+.brand-selection-box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+.brand-selection-top {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 60px;
+    text-align: center;
+}
+
+.brand-selection-titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 43px;
+}
+
+.brand-selection-titleE {
+    width: 100%;
+    height: 22px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.brand-selection-content {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.brand-selection-content ul {
+    overflow:  hidden;
+}
+
+li.brand-selection-list {
+    float: right;
+    overflow:  hidden;
+    width:  600px;
+    height:  auto;
+    padding-top: 15px;
+    padding-right: 60px;
+    box-sizing:  border-box;
+}
+
+.brand-selection-list-img {
+    display: none;
+    overflow:  hidden;
+    width:  600px;
+    height:  335px;
+}
+
+.brand-selection-list-img img {
+    width:  100%;
+    height:  100%;
+ 	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.brand-selection-list-img img:hover {
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.brand-selection-list-title {
+    overflow:  hidden;
+    width:  100%;
+    height:  60px;
+    font-size:  22px;
+    text-align:  left;
+    line-height:  60px;
+}
+
+.brand-selection-list-title a {
+    display: block;
+    overflow: hidden;
+    width:  100%;
+    height:  100%;
+    color:  #22202b;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.brand-selection-list-title a:hover{
+	text-decoration: underline;
+}
+
+.brand-selection-list-desc {
+    width:  100%;
+    height:  auto;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  left;
+}
+
+.brand-selection-list-time {
+    width:  100%;
+    height:  24px;
+    color:  #ccc;
+    font-size:  12px;
+    text-align:  left;
+    line-height:  24px;
+}
+
+.brand-selection-content ul li:first-child {
+    padding: 0px;
+}
+
+.brand-selection-content ul li:first-child .brand-selection-list-img {
+    display:  block;
+}
+
+.brand-selection-content ul li:first-child .brand-selection-list-time {
+    margin-top: 20px;
+}
+/*brand-selection end*/
+
+/*decoration-place start*/
+div#decoration-placement {
+    width: 100%;
+    height: auto;
+}
+
+.decoration-place-box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.decoration-place-top {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 80px;
+    text-align: center;
+}
+
+.decoration-place-titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 43px;
+}
+
+.decoration-place-titleE {
+    width: 100%;
+    height: 22px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.decoration-place-content {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.decoration-place-content ul {
+    overflow:  hidden;
+}
+
+li.decoration-place-list {
+    float:  left;
+    overflow:  hidden;
+    width:  367px;
+    height:  auto;
+    margin-left:  49px;
+}
+
+.decoration-place-content ul li:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.decoration-place-img {
+    display:  none;
+    overflow:  hidden;
+    width:  100%;
+    height:  254px;
+}
+
+.decoration-place-img img {
+    width:  100%;
+    height: 100%;
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.decoration-place-img img:hover {
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.decoration-place-title {
+    float:  left;
+    width: 290px;
+    height:  24px;
+    padding-left:  6px;
+    font-size:  14px;
+    text-align:  left;
+    line-height:  24px;
+    background: url(../images/news/company-info-title-dot.png) left center no-repeat;
+    box-sizing:  border-box;
+}
+
+.decoration-place-title a {
+    display:  block;
+    overflow: hidden;
+    width:  100%;
+    height:  100%;
+    color: #666;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.decoration-place-title a:hover{
+	text-decoration: underline;
+}
+
+.decoration-place-time {
+    float:  right;
+    height:  24px;
+    padding:  0 12px;
+    color:  #858585;
+    font-size:  14px;
+    text-align:  center;
+    line-height: 24px;
+}
+
+.decoration-place-content ul li:nth-child(1),.decoration-place-content ul li:nth-child(2),.decoration-place-content ul li:nth-child(3) {
+    padding-bottom: 50px;
+}
+
+.decoration-place-content ul li:nth-child(1) .decoration-place-img,.decoration-place-content ul li:nth-child(2) .decoration-place-img,.decoration-place-content ul li:nth-child(3) .decoration-place-img {
+    display:  block;
+}
+
+.decoration-place-content ul li:nth-child(1) .decoration-place-time,.decoration-place-content ul li:nth-child(2) .decoration-place-time,.decoration-place-content ul li:nth-child(3) .decoration-place-time {
+    display:  none;
+}
+
+.decoration-place-content ul li:nth-child(1) .decoration-place-title,.decoration-place-content ul li:nth-child(2) .decoration-place-title,.decoration-place-content ul li:nth-child(3) .decoration-place-title {
+    width:  100%;
+    height:  52px;
+    padding: 0;
+    background: none;
+    font-size:  18px;
+    line-height:  52px;
+    text-align:  center;
+}
+
+.decoration-place-content ul li:nth-child(1) .decoration-place-title a, .decoration-place-content ul li:nth-child(2) .decoration-place-title a, .decoration-place-content ul li:nth-child(3) .decoration-place-title a {
+    color: #22202b;
+}
+/*decoration-place end*/

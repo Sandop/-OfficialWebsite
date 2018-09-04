@@ -1,0 +1,192 @@
+/*面包屑开始*/
+div#bread-nav .brand-nav-box {
+    line-height: 150px;
+}
+/*面包屑结束*/
+
+/*Questions List start*/
+div#questions_wrap {
+    width:  100%;
+}
+
+.questions_box {
+    overflow:  hidden;
+    width:  1200px;
+    height: auto;
+    margin:  0 auto;
+    padding-bottom:  150px;
+    border-top: 2px solid #d5d5d8;
+}
+
+.questions_list_box {
+    width:  100%;
+}
+
+.questions_list_box ul {
+    width: 100%;
+}
+
+li.questions_list {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 113px;
+}
+
+.questions_list_box ul li:first-child {
+    padding-top: 75px;
+}
+
+.questions_list_left {
+    float: left;
+    overflow: hidden;
+    width: 367px;
+    height: 254px;
+}
+
+.questions_list_left img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.questions_list_left img:hover{
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.questions_list_right {
+    float: right;
+    width: 787px;
+    height: auto;
+}
+
+.questions_list_title {
+    overflow: hidden;
+    width: 100%;
+    height: 56px;
+}
+
+.questions_list_title a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #22202b;
+    font-size: 22px;
+    line-height: 56px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.questions_list_desc {
+    overflow: hidden;
+    width: 100%;
+    height: 131px;
+    padding-top: 20px;
+    border-bottom: 2px solid #d5d5d8;
+    box-sizing: border-box;
+    color: #858585;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.questions_list_bottom {
+    overflow: hidden;
+    width: 100%;
+    height: 68px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.questions_list_tag_box {
+    float: left;
+    overflow: hidden;
+}
+
+.questions_list_tag {
+    float: left;
+    width: 103px;
+    height: 32px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.questions_list_tag_box .questions_list_tag:first-child {
+    margin-right: 17px;
+}
+
+.questions_list_tag a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.questions_list_tag a:hover {
+    background: #000;
+    color: #feeabd;
+}
+
+.questions_list_time {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.questions_list_pagination_box {
+    width:  100%;
+    height:  auto;
+    padding-top: 84px;
+    text-align:  center;
+}
+
+.questions_list_pagination_box a,.questions_list_pagination_box span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.prev,.next,.questions_list_pagination_box a:nth-child(2),.questions_list_pagination_box a:nth-last-child(2) {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.questions_list_pagination_box a:hover,span.active {
+    background: #000;
+    color: #feeabd;
+}
+/*Questions List end*/

@@ -1,0 +1,129 @@
+/*Pre sale service commitment start*/
+div#pre_sales_wrap {
+    width:  100%;
+}
+
+.pre_sales_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.pre_sales_title {
+    width:  100%;
+    text-align:  center;
+}
+
+.pre_sales_titleC {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.pre_sales_titleE {
+	overflow: hidden;
+	width: 100%;
+	height: 34px;
+	color: #858585;
+	font-size: 14px;
+	line-height: 34px;
+	text-align:center;
+}
+
+.pre_sales {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  140px;
+}
+
+.pre_sales ul {
+    width:  100%;
+}
+
+li.pre_sales_list {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 75px 0;
+    border-bottom: 2px solid #eae9eb;
+}
+
+.pre_sales ul li:first-child {
+    border-top: 2px solid #eae9eb;
+}
+
+.pre_sales_left {
+    float:  left;
+    overflow: hidden;
+    width:  600px;
+    height:  auto;
+    box-sizing: border-box;
+}
+
+.pre_sales_right {
+    float:  right;
+    width:  600px;
+    height:  auto;
+}
+
+.pre_sales_right_img {
+    float:  right;
+    overflow:  hidden;
+    width:  504px;
+    height: 258px;
+}
+
+.pre_sales_num {
+    overflow:  hidden;
+    width:  100%;
+    height:  92px;
+    color: #22202b;
+    font-size:  60px;
+    font-weight:  bold;
+    line-height:  92px;
+}
+
+.pre_sales_list_title {
+    width:  100%;
+}
+
+p.pre_sales_list_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  34px;
+    color:  #22202b;
+    font-size:  24px;
+    font-weight:  bold;
+    line-height:  34px;
+}
+
+p.pre_sales_list_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.pre_sales_desc {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 13px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.pre_sales ul li:nth-child(2n) .pre_sales_left {
+    float:  right;
+    padding-left: 55px;
+}
+
+.pre_sales ul li:nth-child(2n) .pre_sales_right,.pre_sales ul li:nth-child(2n) .pre_sales_right .pre_sales_right_img {
+    float:  left;
+}
+
+/*Pre sale service commitment end*/

@@ -1,0 +1,207 @@
+/*面包屑部分*/
+div#bread-nav .brand-nav-box {
+    line-height:  150px;
+}
+/*面包屑部分结束*/
+
+/*Place Map start*/
+div#place_map_wrap {
+    width:  100%;
+}
+
+.place_map_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding:  75px 0 150px;
+    border-top: 2px solid #d5d5d8;
+}
+
+#place_map {
+    overflow:  hidden;
+    width:  100%;
+    height:  600px;
+}
+
+.BMap_bubble_title h3 {
+    margin: 15px 0;
+    font-size:  20px;
+    font-weight:  bold;
+}
+
+.anchorBL {
+    display:  none;
+}
+/*Place Map end*/
+
+/*Contact Us start*/
+div#contact_us_wrap {
+    width:  100%;
+}
+
+.contact_us_box {
+    overflow: hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 0 0 125px;
+}
+
+.contact_us_title {
+    width:  100%;
+}
+
+p.contact_us_titleC {
+    overflow:  hidden;
+    width: 100%;
+    height: 34px;
+    color:  #22202b;
+    font-size:  24px;
+    font-weight:  bold;
+    line-height:  34px;
+    text-align:  left;
+}
+
+p.contact_us_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 18px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.contact_us_desc_box {
+    width:  100%;
+    padding-top:  33px;
+}
+
+.contact_us_desc {
+    padding-bottom: 14px;
+}
+
+p.contact_us_descC {
+    overflow: hidden;
+    width: 100%;
+    height: 22px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+
+p.contact_us_descE {
+    overflow: hidden;
+    width: 100%;
+    height: 18px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+/*Contact Us end*/
+
+/*Customer service start*/
+div#customer_service_wrap {
+    width: 100%;
+}
+
+.customer_service_box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 115px;
+}
+
+.customer_service_title {
+    width: 100%;
+    padding-bottom:  13px;
+}
+
+p.customer_service_titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 34px;
+    color: #22202b;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: left;
+}
+
+p.customer_service_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 18px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.customer_service_left {
+    float:  left;
+    overflow:  hidden;
+    width:  600px;
+}
+
+.customer_service_right {
+    float: left;
+    overflow:  hidden;
+    width: 600px;
+}
+
+.customer_service_content {
+    width:  100%;
+}
+
+.customer_service_content_title {
+    overflow: hidden;
+    width: 100%;
+    height: 28px;
+    color: #22202b;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: left;
+}
+
+.customer_service_content_box {
+    padding-top:  30px;
+}
+
+li.customer_service_list {
+    width:  100%;
+    padding-bottom:  28px;
+}
+
+p.customer_service_list_contact {
+    overflow:  hidden;
+    width:  100%;
+    height:  20px;
+    color:  #22202b;
+    font-size: 14px;
+    font-weight:  bold;
+    line-height:  20px;
+    text-align:  left;
+}
+
+p.customer_service_list_name {
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.customer_service_right .customer_service_content:first-child {
+    padding-bottom: 68px;
+}
+/*Customer service end*/
+
+

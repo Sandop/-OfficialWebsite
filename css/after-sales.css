@@ -1,0 +1,129 @@
+/*Pre sale service commitment start*/
+div#after_sales_wrap {
+    width:  100%;
+}
+
+.after_sales_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.after_sales_title {
+    width:  100%;
+    text-align:  center;
+}
+
+.after_sales_titleC {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.after_sales_titleE {
+	overflow: hidden;
+	width: 100%;
+	height: 34px;
+	color: #858585;
+	font-size: 14px;
+	line-height: 34px;
+	text-align:center;
+}
+
+.after_sales {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  140px;
+}
+
+.after_sales ul {
+    width:  100%;
+}
+
+li.after_sales_list {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 75px 0;
+    border-bottom: 2px solid #eae9eb;
+}
+
+.after_sales ul li:first-child {
+    border-top: 2px solid #eae9eb;
+}
+
+.after_sales_left {
+    float:  left;
+    overflow: hidden;
+    width:  600px;
+    height:  auto;
+    box-sizing: border-box;
+}
+
+.after_sales_right {
+    float:  right;
+    width:  600px;
+    height:  auto;
+}
+
+.after_sales_right_img {
+    float:  right;
+    overflow:  hidden;
+    width:  504px;
+    height: 258px;
+}
+
+.after_sales_num {
+    overflow:  hidden;
+    width:  100%;
+    height:  92px;
+    color: #22202b;
+    font-size:  60px;
+    font-weight:  bold;
+    line-height:  92px;
+}
+
+.after_sales_list_title {
+    width:  100%;
+}
+
+p.after_sales_list_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  34px;
+    color:  #22202b;
+    font-size:  24px;
+    font-weight:  bold;
+    line-height:  34px;
+}
+
+p.after_sales_list_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.after_sales_desc {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 13px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.after_sales ul li:nth-child(2n) .after_sales_left {
+    float:  right;
+    padding-left: 55px;
+}
+
+.after_sales ul li:nth-child(2n) .after_sales_right,.after_sales ul li:nth-child(2n) .after_sales_right .after_sales_right_img {
+    float:  left;
+}
+
+/*After sale service commitment end*/

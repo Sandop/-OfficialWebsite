@@ -1,0 +1,532 @@
+/*banner start*/
+div#common-banner{
+	height: 700px;
+}
+
+/*banner start*/
+
+/*For what to start*/
+div#experice_idea_wrap {
+    width:  100%;
+    height:  auto;
+}
+
+.experice_idea_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding:  150px 0 140px;
+}
+
+.experice_idea_title {
+    width:  100%;
+    height:  auto;
+    padding-bottom:  54px;
+    text-align:  center;
+}
+
+p.experice_idea_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  35px;
+}
+
+p.experice_idea_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height:  40px;
+    color:  #858585;
+    font-size:  14px;
+    line-height: 40px;
+}
+
+.experice_idea_num_box {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.experice_idea_img {
+    overflow:  hidden;
+    width:  576px;
+    height: 306px;
+    margin:  0 auto;
+}
+
+.experice_idea_intro {
+    overflow:  hidden;
+    width:  100%;
+    height:  87px;
+    color:  #858585;
+    font-size:  18px;
+    line-height:  87px;
+    text-align:  center;
+}
+
+.experice_idea_num {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+.experice_idea_num_desc1 {
+    float:  left;
+    width:  600px;
+    height:  auto;
+    padding-left:  300px;
+    box-sizing:  border-box;
+    color: #858585;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.experice_idea_num_desc2 {
+    float:  right;
+    width: 600px;
+    height: auto;
+    padding-right: 280px;
+    box-sizing: border-box;
+    color: #858585;
+    font-size:  18px;
+    line-height: 32px;
+    text-align:  center;
+}
+
+
+p.experice_idea_numbers {
+    color: #22202b;
+    font-size:  48px;
+    font-weight:  bold;
+    line-height: 40px;
+}
+
+.experice_idea_desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  80px;
+    padding-left: 370px;
+    box-sizing:  border-box;
+    color:  #858585;
+    font-size:  18px;
+    line-height: 26px;
+    text-align: left;
+}
+/*For what to start*/
+
+/*New retail model start*/
+div#new_model {
+    width:  100%;
+    height:  auto;
+    background:  #f9f9fa;
+}
+
+.new_model_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding:  150px 0 130px;
+}
+
+.new_model_title {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-bottom: 110px;
+    text-align:  center;
+}
+
+p.new_model_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  38px;
+    color:  #22202b;
+    font-size: 30px;
+    font-weight:  bold;
+    line-height: 38px;
+}
+
+p.new_model_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height:  20px;
+    color:  #858585;
+    font-size:  14px;
+    line-height: 20px;
+}
+
+.new_model_list_box {
+    overflow:  hidden;
+    width:  100%;
+    padding-top:  100px;
+    border-top: 1px solid #d0d0d4;
+}
+
+.new_model_list_box ul {
+    overflow:  hidden;
+}
+
+li.new_model_list {
+    float:  left;
+    overflow:  hidden;
+    width:  400px;
+    height:  auto;
+}
+
+p.new_model_list_cont1 {
+    overflow:  hidden;
+    width:  100%;
+    height:  24px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  24px;
+    text-align:  center;
+}
+
+p.new_model_list_cont2 {
+    overflow: hidden;
+    width: 100%;
+    height: 28px;
+    color: #22202b;
+    font-size: 18px;
+    font-weight:  bold;
+    line-height: 28px;
+    text-align: center;
+}
+/*New retail model end*/
+
+/*For what service start*/
+div#experice_service {
+    width:  100%;
+    height:  auto;
+}
+
+.experice_service_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0 80px;
+}
+
+.experice_service_title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+p.experice_service_titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+}
+
+p.experice_service_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height: 36px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  36px;
+}
+
+p.experice_service_title_desc {
+    overflow: hidden;
+    width: 100%;
+    height: 42px;
+    color: #858585;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.experice_service_list_box {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.experice_service_left {
+    float:  left;
+    overflow:  hidden;
+    width: 400px;
+    height:  auto;
+    padding-top: 350px;
+}
+
+.experice_service_mid {
+    float: left;
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+}
+
+.experice_service_right {
+    float: right;
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+    padding-top: 350px;
+}
+
+li.experice_service_list {
+    overflow:  hidden;
+    width: 400px;
+    height:  auto;
+}
+
+.experice_service_list_img {
+    overflow:  hidden;
+    width: 100%;
+}
+
+.experice_service_list_title {
+    overflow:  hidden;
+    width:  100%;
+    padding: 80px 0 75px;
+    text-align:  center;
+}
+
+p.experice_service_list_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  34px;
+    color:  #22202f;
+    font-size: 23px;
+    font-weight:  bold;
+    line-height:  34px;
+}
+
+p.experice_service_list_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 24px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+p.experice_service_list_desc {
+    overflow: hidden;
+    width: 100%;
+    height: 34px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 34px;
+}
+/*For what service end*/
+
+/*For what design start*/
+div#experice_design {
+    width:  100%;
+    height:  auto;
+    background: #f9f9fa;
+}
+
+.experice_design_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 105px 0 150px;
+}
+
+.experice_design_title {
+    width: 100%;
+    height: auto;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+p.experice_design_titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+}
+
+p.experice_design_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.experice_design_content_box {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.experice_design_place_container {
+    width: 100%;
+    height: auto;
+}
+
+.experience_tab_content {
+    overflow: hidden;
+    width: 100%;
+    height: 1066px;
+}
+
+.experience_tab_box {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.experience_tab_content .experience_tab_box:first-child {
+    display:  block;
+}
+
+.experice_design_place_box {
+    overflow:  hidden;
+    width:  100%;
+    height:  44px;
+}
+
+.experice_design_place {
+    float: left;
+    overflow:  hidden;
+    width:  200px;
+    height:  100%;
+    padding-left:  115px;
+    box-sizing:  border-box;
+    color:  #22202b;
+    font-size: 24px;
+    font-weight:  bold;
+    line-height: 44px;
+}
+
+.experice_design_place_line {
+    float:  left;
+    width:  600px;
+    height:  2px;
+    margin-top: 20px;
+    background: #d0d0d4;
+}
+
+.experice_design_place_intro {
+    float: left;
+    overflow:  hidden;
+    width: 400px;
+    height: 100%;
+    padding-left:  40px;
+    box-sizing:  border-box;
+    color:  #22202b;
+    font-size:  18px;
+    font-weight:  bold;
+    line-height:  44px;
+    text-align:  left;
+}
+
+.experice_design_place_desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding:  58px 0 70px;
+    text-align:  center;
+}
+
+p.experice_design_place_descC {
+    width:  100%;
+    height:  25px;
+    color:  #858585;
+    font-size: 14px;
+    font-weight:  bold;
+    line-height:  25px;
+}
+
+p.experice_design_place_descE {
+    width: 100%;
+    height: 23px;
+    color: #cccccc;
+    font-family: 黑体;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.experice_design_place_img_box {
+    width:  100%;
+}
+
+.experice_design_place_img {
+    overflow:  hidden;
+    width:  922px;
+    height:  530px;
+    margin:  0 auto;
+}
+
+.experice_design_place_img_desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  183px;
+    padding-top:  72px;
+    box-sizing:  border-box;
+    color: #858585;
+    font-size: 14px;
+    line-height: 20px;
+    text-align:  center;
+}
+
+.experice_design_place_more {
+    width: 163px;
+    height: 40px;
+    margin:0 auto 87px;
+    border: 3px solid #000;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.experice_design_place_more:hover{
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+.experice_design_place_more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #22202b;
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.experice_design_place_more:hover a {
+    background:  #22202b;
+    color: #feeabd;
+}
+
+ul.experience_dot_nav {
+    overflow:  hidden;
+    width:  100%;
+    height:  15px;
+    text-align:  center;
+}
+
+li.experience_dot {
+    display:  inline-block;
+    width:  15px;
+    height:  15px;
+    margin: 0px 8px;
+    background:  #858585;
+    border-radius:  50%;
+    cursor:  pointer;
+}
+
+li.experience_dot.active,li.experience_dot:hover {
+    background: #22202b;
+}
+/*For what design start*/

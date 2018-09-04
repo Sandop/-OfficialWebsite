@@ -1,0 +1,296 @@
+/*Products select start*/
+
+div#products-content {
+    width:  100%;
+    height:  auto;
+}
+
+div#products-select {
+    width:  100%;
+    height: auto;
+}
+
+.products-select-box {
+    overflow:  hidden;
+    width:  1200px;
+    min-height: 468px;
+    height:  auto;
+    margin:  0 auto;
+    padding-top:  50px;
+}
+
+.furniture-place,.furniture-class,.furniture-materials,.furniture-series,.furniture-style {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 18px 0;
+    border-bottom: 2px solid #d5d5d8;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  34px;
+    text-align:  center;
+}
+
+.furniture-place-title,.furniture-class-title,.furniture-materials-title,.furniture-series-title,.furniture-style-title {
+    float:  left;
+    width: 80px;
+    height:  100%;
+    color: #22202b;
+    line-height: 40px;
+}
+
+.furniture-place-kinds,.furniture-class-kinds,.furniture-materials-kinds,.furniture-series-kinds,.furniture-style-kinds {
+    float: left;
+    overflow:  hidden;
+    width: 1120px;
+}
+
+.products-select-box ul li {
+    float:  left;
+    height:  40px;
+    margin: 2px;
+    padding: 0 33px;
+    border: 3px solid transparent;
+    box-sizing:  border-box;
+    cursor:  pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.furniture-place-kinds ul li.furniture-place-kinds-list {
+    float:  left;
+    height: 40px;
+    padding: 0;
+    border:  none;
+}
+
+.furniture-place-kinds ul li.furniture-place-kinds-list a {
+    display:  block;
+    width:  100%;
+    height:  100%;
+    padding: 0 33px;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    color: #858585;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-select-box ul li:hover{
+    border: 3px solid #22202b;
+    color: #22202b;
+}
+
+.furniture-class-kinds-list.active,.furniture-series-kinds-list.active,.furniture-materials-kinds-list.active,.furniture-style-kinds-list.active{
+    border: 3px solid #22202b;
+    color: #22202b;
+}
+
+.furniture-place-kinds ul li.furniture-place-kinds-list:hover{
+    border: none;
+}
+
+.furniture-place-kinds ul li.furniture-place-kinds-list:hover a,.furniture-place-kinds ul li.furniture-place-kinds-list.active a{
+    border: 3px solid #22202b;
+    color: #22202b;
+}
+
+.products-sequence {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 18px 0;
+    border-bottom: 2px solid #d5d5d8;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  34px;
+    text-align:  center;
+}
+
+.products-sequence>div {
+    float:  left;
+    height:  40px;
+    border: 3px solid transparent; 
+    box-sizing:  border-box;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-sequence>div.compl-sequence{
+	border: 3px solid transparent;
+	color:  #858585;
+    line-height: 40px;
+}
+
+li.sales-volume-list.active,li.news-products-list.active,li.products-prices-list.active{
+    border: 3px solid #22202b;
+    color: #22202b;
+}
+/*products-select end*/
+
+/*products-show start*/
+div#products-show {
+    width: 100%;
+    height: auto;
+}
+
+.products-show-box {
+    overflow: hidden;
+    width: 1200px;
+    min-height: 291px;
+    height: auto;
+    margin: 0 auto;
+    padding: 105px 0 150px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+.products-show-box p {
+    color: #858585;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.products-show-box ul {
+    overflow:  hidden;
+}
+
+.products-kind-list {
+    float: left;
+    width: 300px;
+    height: 333px;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+li.products-kind-list:hover {
+    border: 3px solid #dcdcdc;
+}
+
+.products-kind-list-img {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 236px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-kind-list-img img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.products-kind-list-img img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.products-kind-name {
+    overflow:  hidden;
+    width:  100%;
+    height:  38px;
+}
+
+.products-kind-name a {
+    display:  block;
+    overflow: hidden;
+    width: 100%;
+    height:  100%;
+    padding: 0 20px;
+    color: #979797;
+    font-size:  14px;
+    line-height:  38px;
+    text-align:  center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-kind-name a:hover {
+    color: #22202b;
+}
+
+.products-kind-price {
+    overflow:  hidden;
+    width:  100%;
+    height:  40px;
+    color:  #22202b;
+    text-align:  center;
+}
+
+span.price-num {
+    font-size:  24px;
+    font-weight:  bold;
+    line-height: 40px;
+}
+/*products-show end*/
+/*products-pagination start*/
+div#products-pagination {
+    width:  100%;
+    height:  auto;
+}
+
+.products-pagination-box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 60px 0 170px;
+    text-align:  center;
+}
+
+
+.products-pagination-box a,.products-pagination-box span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.prev,.next,.products-pagination-box a:nth-child(2),.products-pagination-box a:nth-last-child(2) {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.products-pagination-box a:hover,span.active {
+    background: #000;
+    color: #feeabd;
+}
+/*products-pagination end*/
+
+/*Products select end*/

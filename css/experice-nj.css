@@ -1,0 +1,1093 @@
+/*Place description satrt*/
+div#place_desc_wrap {
+    width: 100%;
+    height:  auto;
+}
+
+.place_desc_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.place_desc_left {
+    float:  left;
+    width:  475px;
+    height:  auto;
+}
+
+.place_title_box {
+    width:  100%;
+}
+
+p.place_titleC {
+    width:  100%;
+    height:  42px;
+    color:  #22202b;
+    font-size:  42px;
+    font-weight:  bold;
+    line-height:  42px;
+    text-align:  left;
+}
+
+p.place_titleE {
+    width:  100%;
+    height:  30px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  30px;
+    text-align:  left;
+}
+
+.place_desc {
+    width:  100%;
+    padding:  28px 0 55px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  24px;
+    text-align:  left;
+}
+
+.place_descE {
+    overflow:  hidden;
+    width:  100%;
+    padding-bottom:  82px;
+    color:  #d6d6d6;
+    font-size:  12px;
+    line-height:  16px;
+    text-align:  left;
+}
+
+.place_tag_box {
+    position:  relative;
+    width:  100%;
+}
+
+li.place_tag_list {
+    overflow:  hidden;
+    width:  113px;
+    height:  40px;
+    margin-bottom:  27px;
+    border: 3px solid #000;
+    box-sizing:  border-box;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  34px;
+    text-align:  center;
+    cursor: pointer;
+    webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.place_tag_list.active,.place_tag_list:hover{
+    color: #feeabd;
+    background: #000;
+}
+
+.place_tag_box::after {
+    position:  absolute;
+    top: 86px;
+    right: -75px;
+    content: "";
+    width:  340px;
+    height:  2px;
+    background:  #d5d5d8;
+    z-index: 22;
+}
+
+.place_desc_right {
+    float:  right;
+    overflow:  hidden;
+    width:  520px;
+    height: 684px;
+}
+
+.place_desc_img {
+    overflow: hidden;
+    width: 520px;
+    height: 684px;
+}
+
+.place_desc_right img {
+    width:  100%;
+    height:  100%;
+}
+/*Place description satrt*/
+
+/* Place people description satrt */
+div#place_people_desc_wrap {
+    width:  100%;
+    background: #f9f9fa;
+}
+
+.place_people_desc_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0 145px;
+}
+
+.place_people_desc_left {
+    float:  left;
+    overflow:  hidden;
+    width:  446px;
+    height: auto;
+}
+
+.place_people_desc_left_img {
+    overflow:  hidden;
+    width:  100%;
+    height: 678px;
+}
+
+.place_people_desc_left_img img {
+    width:  100%;
+    height:  100%;
+}
+
+.place_people_name {
+    overflow:  hidden;
+    width:  100%;
+    height:  104px;
+    margin-top:  18px;
+    color: #22202b;
+    font-size:  42px;
+    font-weight:  bold;
+    line-height:  104px;
+    text-align:  left;
+}
+
+.place_people_desc {
+    width:  100%;
+}
+
+.place_people_descC {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  22px;
+    text-align:  left;
+}
+
+.place_people_descE {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  8px;
+    color:  #d6d6d6;
+    font-size:  12px;
+    line-height:  18px;
+    text-align:  left;
+}
+
+.place_people_desc_right {
+    float:  right;
+    overflow:  hidden;
+    width: 700px;
+    text-align:  right;
+}
+
+.place_people_desc_right_img {
+    overflow:  hidden;
+    width:  700px;
+    height:  677px;
+}
+
+.place_people_desc_right_title {
+    display: inline-block;
+    width: 220px;
+    padding: 43px 0 44px;
+    border-bottom: 2px solid #d5d5d8;
+}
+
+p.place_people_desc_right_titleE {
+    width:  100%;
+    height:  50px;
+    color:  #22202b;
+    font-size:  42px;
+    font-weight:  bold;
+    line-height:  50px;
+    text-align:  right;
+}
+
+p.place_people_desc_right_titleC {
+    width: 100%;
+    height: 26px;
+    padding-left: 25px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    box-sizing: border-box;
+}
+/* Place people description end */
+
+/*Line Service start*/
+div#line_service_wrap {
+    width:  100%;
+}
+
+.line_service_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.line_service_title_box {
+    width:  100%;
+    text-align:  center;
+}
+
+.line_service_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  91px;
+}
+
+.line_service_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height:  34px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  34px;
+    text-align:  center;
+}
+
+.line_service_mid_box {
+    width:  100%;
+    height:  auto;
+    padding:  85px 0 80px;
+    text-align:  center;
+}
+
+.line_service_mid_img {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.line_service_mid_desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top: 80px;
+}
+
+p.line_service_mid_descC {
+    color:  #858585;
+    font-size:  18px;
+    line-height:  24px;
+    text-align:  center;
+}
+
+p.line_service_mid_descE {
+    color:  #d6d6d6;
+    font-size:  14px;
+    line-height:  34px;
+    text-align:  center;
+}
+
+.line_service_process {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.line_service_process ul {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    text-align:  center;
+}
+
+li.line_service_process_list {
+    display:  inline-block;
+    width:  72px;
+    height:  auto;
+    margin:  0 35px;
+}
+
+.line_service_process_list_img {
+    width:  100%;
+    height:  auto;
+    text-align:  center;
+}
+
+.line_service_process_list {
+    overflow:  hidden;
+    width:  100%;
+    height:  30px;
+    color: #858585;
+    font-size:  14px;
+    line-height:  30px;
+    text-align:  center;
+}
+
+.line_service_bottom {
+    width:  100%;
+    padding-top:  90px;
+}
+
+p.line_service_bottomC {
+	color:  #858585;
+	font-size: 18px;
+	line-height:  26px;
+	text-align:  center;
+}
+
+p.line_service_bottomE {
+    color:  #d6d6d6;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  center;
+}
+/*Line Service end*/
+
+/*Panoramic hall start*/
+div#panoramic_hall_wrap {
+    width:  100%;
+    background: #f9f9fa;
+}
+
+.panoramic_hall_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0 155px;
+}
+
+.panoramic_hall_title_box {
+    width:  100%;
+    padding-bottom: 115px;
+    text-align:  center;
+}
+
+.panoramic_hall_titleC {
+    overflow: hidden;
+    width: 100%;
+    height: 91px;
+}
+
+.panoramic_hall_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 34px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.panoramic_hall_title_desc {
+    overflow: hidden;
+    width: 100%;
+    height: 68px;
+    color: #d6d6d6;
+    font-size: 14px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.panoramic_hall {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.panoramic_hall ul {
+    overflow:  hidden;
+    width:  100%;
+}
+
+li.panoramic_hall_list {
+    float:  left;
+    overflow:  hidden;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.panoramic_hall ul li:first-child {
+    margin-left: 0px;
+}
+
+.panoramic_hall_list_img {
+    overflow:  hidden;
+    width:  100%;
+    height:  570px;
+}
+
+.panoramic_hall_list_intro_box {
+    overflow:  hidden;
+    width:  100%;
+    height:  314px;
+    padding-top:  74px;
+    padding-right: 50px;
+    box-sizing:  border-box;
+}
+
+.panoramic_hall_list_title {
+    width:  100%;
+    height:  30px;
+    color:  #22202b;
+    font-size:  18px;
+    font-weight:  bold;
+    line-height:  30px;
+    text-align:  left;
+}
+
+.panoramic_hall ul li:last-child .panoramic_hall_list_title {
+    height: 60px;
+}
+
+.panoramic_hall_list_introC {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding:  23px 0 32px;
+    color:  #858585;
+    font-size: 14px;
+    line-height: 18px;
+    text-align:  left;
+}
+
+.panoramic_hall_list_introE {
+    overflow:  hidden;
+    width:  100%;
+    color:  #cccccc;
+    font-size:  12px;
+    line-height:  15px;
+    text-align:  left;
+}
+/*Panoramic hall end*/
+
+/*Native Level start*/
+div#native_level_wrap {
+    width:  100%;
+}
+
+.native_level_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding-top:  150px;
+}
+
+.native_level_title_box {
+    overflow:  hidden;
+    width:  100%;
+    padding-bottom: 60px;
+}
+
+.native_level_title_left {
+    float:  left;
+    width: 350px;
+}
+
+.native_level_title_line {
+    float:  left;
+    width:  540px;
+    height:  2px;
+    margin: 70px 50px 0;
+    background:  #d5d5d8;
+}
+
+.native_level_titleC {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.native_level_title_desc {
+    width:  100%;
+    height:  auto;
+    padding-top:  18px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  left;
+}
+
+.native_level_title_right {
+    float:  right;
+    margin-top: 60px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  right;
+}
+
+.native_level_show {
+    width:  100%;
+}
+
+.native_level_show ul {
+    overflow:  hidden;
+}
+
+li.native_level_list {
+    float:  left;
+    overflow:  hidden;
+    width:  445px;
+    height: 244px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.native_level_show ul li:first-child {
+    width:  743px;
+    height:  756px;
+    margin-left: 0;
+}
+/*Native Level end*/
+
+/*Elegant Style start*/
+div#elegant_style_wrap {
+    width:  100%;
+}
+
+.elegant_style_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding-top:  150px;
+}
+
+.elegant_style_title_box {
+    overflow:  hidden;
+    width:  100%;
+    padding-bottom: 60px;
+}
+
+.elegant_style_title_left {
+    float: right;
+    width: 350px;
+}
+
+.elegant_style_title_line {
+    float: right;
+    width:  540px;
+    height:  2px;
+    margin: 70px 50px 0;
+    background:  #d5d5d8;
+}
+
+.elegant_style_titleC {
+    overflow:  hidden;
+    width:  100%;
+    text-align: right;
+}
+
+.elegant_style_title_desc {
+    width:  100%;
+    height:  auto;
+    padding-top:  18px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align: right;
+}
+
+.elegant_style_title_right {
+    float: left;
+    margin-top: 60px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align: left;
+}
+
+.elegant_style_show {
+    width:  100%;
+}
+
+.elegant_style_show ul {
+    overflow:  hidden;
+}
+
+li.elegant_style_list {
+    float: right;
+    overflow:  hidden;
+    width:  445px;
+    height: 244px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.elegant_style_show ul li:first-child {
+    width:  743px;
+    height:  756px;
+    margin-right: 0;
+}
+/*Elegant Style end*/
+
+/*Chinese Style start*/
+div#chinese_style_wrap {
+    width:  100%;
+}
+
+.chinese_style_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding-top:  150px;
+}
+
+.chinese_style_title_box {
+    overflow:  hidden;
+    width:  100%;
+    padding-bottom: 60px;
+}
+
+.chinese_style_title_left {
+    float:  left;
+    width: 350px;
+}
+
+.chinese_style_title_line {
+    float:  left;
+    width:  540px;
+    height:  2px;
+    margin: 70px 50px 0;
+    background:  #d5d5d8;
+}
+
+.chinese_style_titleC {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.chinese_style_title_desc {
+    width:  100%;
+    height:  auto;
+    padding-top:  18px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  left;
+}
+
+.chinese_style_title_right {
+    float:  right;
+    margin-top: 60px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  right;
+}
+
+.chinese_style_show {
+    width:  100%;
+}
+
+.chinese_style_show ul {
+    overflow:  hidden;
+}
+
+li.chinese_style_list {
+    float:  left;
+    overflow:  hidden;
+    width:  445px;
+    height: 244px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.chinese_style_show ul li:first-child {
+    width:  743px;
+    height:  756px;
+    margin-left: 0;
+}
+
+/*Chinese Style end*/
+
+/*Natural Style start*/
+div#natural_style_wrap {
+    width:  100%;
+}
+
+.natural_style_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding-top:  150px;
+}
+
+.natural_style_title_box {
+    overflow:  hidden;
+    width:  100%;
+    padding-bottom: 60px;
+}
+
+.natural_style_title_left {
+    float: right;
+    width: 350px;
+}
+
+.natural_style_title_line {
+    float: right;
+    width:  540px;
+    height:  2px;
+    margin: 70px 50px 0;
+    background:  #d5d5d8;
+}
+
+.natural_style_titleC {
+    overflow:  hidden;
+    width:  100%;
+    text-align: right;
+}
+
+.natural_style_title_desc {
+    width:  100%;
+    height:  auto;
+    padding-top:  18px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align: right;
+}
+
+.natural_style_title_right {
+    float: left;
+    margin-top: 60px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align: left;
+}
+
+.natural_style_show {
+    width:  100%;
+}
+
+.natural_style_show ul {
+    overflow:  hidden;
+}
+
+li.natural_style_list {
+    float: right;
+    overflow:  hidden;
+    width:  445px;
+    height: 244px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.natural_style_show ul li:first-child {
+    width:  743px;
+    height:  756px;
+    margin-right: 0;
+}
+
+.natural_style_more {
+    overflow:  hidden;
+    width:  100%;
+    height:  174px;
+    color: #22202b;
+    font-size:  24px;
+    font-weight:  bold;
+    line-height: 174px;
+    text-align:  center;
+}
+/*Natural Style end*/
+
+/*Dream Together start*/
+div#dream_together_wrap {
+    width:  100%;
+    background: #f9f9fa;
+}
+
+.dream_together_box {
+    overflow:  hidden;
+    width:  1200px;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.dream_together_title_box {
+    width:  100%;
+    padding-bottom:  70px;
+    text-align:  center;
+}
+
+.dream_together_titleC {
+    overflow:  hidden;
+    height:  40px;
+}
+
+.dream_together_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height:  26px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  26px;
+    text-align:  center;
+}
+
+.dream_together_title_desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  20px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  24px;
+    text-align:  center;
+}
+
+.dream_together_video {
+    overflow:  hidden;
+    width:  100%;
+    height:  600px;
+    background: #000;
+}
+/*Dream Together end*/
+
+/*High Lights start*/
+div#high_lights_wrap {
+    width:  100%;
+    background:  #fff;
+}
+
+.high_lights_box {
+    overflow:  hidden;
+    width:  1200px;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.high_lights_title_box {
+    width:  100%;
+    padding-bottom: 67px;
+    text-align:  center;
+}
+
+.high_lights_titleC {
+    overflow:  hidden;
+    height:  92px;
+}
+
+.high_lights_titleE {
+    overflow:  hidden;
+    width:  100%;
+    height:  28px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  28px;
+    text-align:  center;
+}
+
+.high_lights {
+    width:  100%;
+}
+
+.high_lights ul {
+    overflow:  hidden;
+}
+
+li.high_lights_list {
+    float:  left;
+    overflow:  hidden;
+    width: 400px;
+    height:  660px;
+    padding-top: 86px;
+    text-align:  center;
+    box-sizing:  border-box;
+}
+
+.high_lights_list_num {
+    overflow:  hidden;
+    width:  100%;
+    height:  80px;
+    color:  #22202b;
+    font-size:  60px;
+    font-weight: bold;
+    line-height:  80px;
+    text-align:  center;
+}
+
+.high_lights_list_title {
+    width:  100%;
+}
+
+p.high_lights_list_titleC {
+    overflow:  hidden;
+    width:  100%;
+    height:  30px;
+    color:  #22202b;
+    font-size:  22px;
+    font-weight:  bold;
+    line-height:  30px;
+    text-align:  center;
+}
+
+p.high_lights_list_titleE {
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    color: #858585;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.high_lights_list_desc {
+    overflow: hidden;
+    width: 100%;
+    height: 44px;
+    color: #858585;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.high_lights_list_img {
+    overflow:  hidden;
+    width:  100%;
+    height:  350px;
+    margin-top: 50px;
+}
+
+.high_lights_list_img img {
+    width:  100%;
+    height:  100%;
+}
+/*High Lights end*/
+
+/* Bao Tou Map start */
+#place_map_wrap {
+  width: 100%;
+}
+.place_map_box {
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+div#place_map {
+	overflow: hidden;
+    width:  100%;
+    height:  100%;
+}
+
+.BMap_bubble_title h3 {
+    margin: 15px 0;
+    font-size:  20px;
+    font-weight:  bold;
+}
+
+.anchorBL {
+    display:  none;
+}
+/* Bao Tou Map end */
+
+/*Place Address start*/
+div#place_address_wrap {
+    width:  100%;
+    background:  #f9f9fa;
+}
+
+.place_address_box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 140px 0 210px;
+}
+
+.place_address_details {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    text-align:  center;
+}
+
+.place_address_box p {
+    overflow:  hidden;
+    width:  100%;
+    height:  24px;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  24px;
+    text-align:  center;
+}
+
+.place_address_details h3 {
+    overflow:  hidden;
+    width: 100%;
+    height: 40px;
+    color:  #25232d;
+    font-size:  24px;
+    font-weight:  bold;
+    line-height: 40px;
+    text-align:  center;
+}
+
+.place_address_phone {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding: 60px 0 67px;
+    text-align:  center;
+}
+
+.place_address_phone1 {
+    display:  inline-block;
+    width:  300px;
+    height:  auto;
+}
+
+.place_address_phone1 h3 {
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    color: #25232d;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.place_address_contact {
+    overflow:  hidden;
+    width:  100%;
+}
+
+.place_address_contact_num {
+    overflow:  hidden;
+    text-align:  center;
+}
+
+.place_address_contact_num h3 {
+    display: inline-block;
+    overflow: hidden;
+    height: 40px;
+    margin-left: 20px;
+    color: #25232d;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.place_address_contact_num p {
+    display:  inline-block;
+    width:  auto;
+    height:  40px;
+    line-height: 40px;
+}
+/*Place Address end*/

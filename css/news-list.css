@@ -1,0 +1,444 @@
+/*面包屑部分*/
+#bread-nav{
+	position: relative;
+}
+
+#bread-nav .brand-nav-content{
+    float: right;
+}
+/*面包屑部分结束*/
+
+
+/* news-list start */
+div#news-list {
+    width:  100%;
+    height:  auto;
+}
+
+.news-list-content-box {
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+}
+
+.news-list-container {
+    width:  100%;
+    padding: 45px 0 54px;
+}
+
+.news-list-nav {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.news-list-kind {
+    float:  left;
+    overflow:  hidden;
+    width:  104px;
+    height:  40px;
+    margin-left:  20px;
+    border: 3px solid transparent;
+    box-sizing:  border-box;
+    color:  #000;
+    font-size:  14px;
+    text-align:  center;
+    line-height:  34px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.news-list-kind a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:  #000;
+}
+
+.news-list-nav .news-list-kind:first-child {
+    margin-left: 0;
+}
+
+.news-list-kind.active,.news-list-kind:hover {
+    border: 3px solid #000;
+}
+
+.news-list-tab-content {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.news-list-tab-box {
+	display: none;
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+}
+
+.news-list-tab-content .news-list-tab-box:first-child{
+	display: block;
+}
+
+.news-list-tab-box ul {
+    overflow: hidden;
+    width:  100%;
+}
+
+li.news-list-details {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top: 113px;
+}
+
+.news-list-tab-box ul li:first-child{
+	padding-top: 65px;
+}
+
+.news-list-left {
+    float:  left;
+    overflow:  hidden;
+    width:  367px;
+    height: 254px;
+}
+
+.news-list-left img {
+    width:  100%;
+    height:  100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.news-list-left img:hover{
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.news-list-right {
+    float:  right;
+    width:  787px;
+    height:  auto;
+}
+
+.news-list-title {
+    overflow:  hidden;
+    width:  100%;
+    height:  56px;
+}
+
+.news-list-title a {
+    display:  block;
+    overflow:  hidden;
+    width:  100%;
+    height:  100%;
+    color:  #22202b;
+    font-size:  22px;
+    line-height:  56px;
+    text-align:  left;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.news-list-title a:hover{
+	text-decoration: underline;
+}
+
+.news-list-desc {
+    overflow:  hidden;
+    width:  100%;
+    height:  131px;
+    padding-top: 20px;
+    border-bottom: 2px solid #d5d5d8;
+    box-sizing:  border-box;
+    color:  #858585;
+    font-size:  14px;
+    line-height:  20px;
+    text-align:  left;
+}
+
+.news-list-bottom {
+    overflow:  hidden;
+    width:  100%;
+    height:  68px;
+    padding-top: 24px;
+    box-sizing:  border-box;
+}
+
+.news-list-tag-box {
+    float:  left;
+    overflow:  hidden;
+}
+
+.news-list-time {
+    float:  right;
+    color:  #999;
+    font-size:  12px;
+    line-height:  32px;
+    text-align:  center;
+}
+
+.news-list-tag {
+    float:  left;
+    width:  103px;
+    height:  32px;
+    border: 2px solid #000;
+    box-sizing:  border-box;
+    font-size: 12px;
+    line-height: 28px;
+    text-align:  center;
+}
+
+.news-list-tag-box a {
+    display:  block;
+    width:  100%;
+    height:  100%;
+    color:  #000;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.news-list-tag-box a:hover {
+    background:  #000;
+    color: #feeabd;
+}
+
+.news-list-tag-box .news-list-tag:first-child {
+    margin-right: 17px;
+}
+
+
+.news-list-pagination-box {
+    width:  100%;
+    height:  auto;
+    padding-top: 84px;
+    text-align:  center;
+}
+
+.news-list-pagination-box a,.news-list-pagination-box span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.prev,.next,.news-list-pagination-box a:nth-child(2),.news-list-pagination-box a:nth-last-child(2) {
+    display: inline-block;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.news-list-pagination-box a:hover,span.active {
+    background: #000;
+    color: #feeabd;
+}
+/* news-list end */
+
+/*Recommended Article Start*/
+div#recom-article {
+    width: 100%;
+    height: auto;
+}
+
+.recom-article-box {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.recom-article-title {
+    width: 100%;
+    height: 76px;
+    border-bottom: 2px solid #d5d5d8;
+    color: #22202b;
+    font-size: 22px;
+    line-height: 74px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.recom-article-list-box {
+	overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 71px 0 54px;
+}
+
+.recom-article-left {
+    float:  left;
+    width:  600px;
+    height:  104px;
+    padding-left: 220px;
+    box-sizing:  border-box;
+    background: url(../images/news-list/recom-article-left-bg.png) left center no-repeat;
+}
+
+.recom-article-right {
+    float: right;
+    width:  600px;
+    height:  104px;
+    padding-left: 220px;
+    box-sizing:  border-box;
+    background: url(../images/news-list/recom-article-left-bg.png) left center no-repeat;
+}
+
+li.recom-article-list {
+    overflow:  hidden;
+    width: 345px;
+    height: 26px;
+}
+
+.recom-article-list-title {
+    position: relative;
+    width:  100%;
+    height:  100%;
+    padding-left: 6px;
+    box-sizing: border-box;
+    font-size:  14px;
+    text-align: left;
+    line-height: 26px;
+}
+
+.recom-article-list-title::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #22202b;
+}
+
+.recom-article-list-title a {
+    display:  block;
+    overflow: hidden;
+    width:  100%;
+    height:  100%;
+    color: #999999;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.recom-article-list-title a:hover{
+	color:#000;
+}
+/*Recommended Article End*/
+
+/*Recommended Products Start*/
+div#recom-products {
+    width:  100%;
+    height:  auto;
+}
+
+.recom-products-box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+}
+
+.recom-products-title {
+    width:  100%;
+    height: 76px;
+    border-bottom: 2px solid #d5d5d8;
+    color:  #22202b;
+    font-size:  22px;
+    line-height:  74px;
+    text-align:  left;
+    box-sizing:  border-box;
+}
+
+.recom-products-list-box {
+    width:  100%;
+    height:  auto;
+    padding: 43px 0 133px;
+}
+
+.recom-products-list-box ul {
+    overflow:  hidden;
+    width:  100%;
+}
+
+li.recom-products-list {
+    float:  left;
+    width: 200px;
+    height:  auto;
+    margin-left: 50px;
+}
+
+.recom-products-list-box ul li:first-child {
+    margin-left: 0px;
+}
+
+.recom-products-list-img {
+    overflow:  hidden;
+    width:  100%;
+    height:  105px;
+}
+
+.recom-products-list-img img {
+    width:  100%;
+    height:  100%;
+ 	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.recom-products-list-img img:hover{
+    -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.recom-products-list-title {
+    overflow:  hidden;
+    width:  100%;
+    height:  45px;
+    color:  #999;
+    font-size: 14px;
+    line-height:  45px;
+    text-align:  center;
+}
+
+.recom-products-list-title a {
+    display:  block;
+    overflow:  hidden;
+    width:  100%;
+    height:  100%;
+    padding: 0 10px;
+    color:  #999;
+    box-sizing: border-box;
+    text-overflow:  ellipsis;
+    white-space:  nowrap;
+}
+
+.recom-products-list-title a:hover{
+	color:#000;
+}
+/*Recommended Products End*/

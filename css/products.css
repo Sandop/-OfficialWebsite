@@ -1,0 +1,263 @@
+/* Recommend Products start */
+div#recom-products {
+    width:  100%;
+    height:  auto;
+}
+
+.recom-products-box {
+    overflow:  hidden;
+    width: 1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 150px 0;
+}
+
+.recom-products-box ul {
+    overflow:  hidden;
+}
+
+li.recom-products-list {
+    float:  left;
+    overflow:  hidden;
+    width:  293px;
+    height:  188px;
+    margin-left: 8px;
+}
+
+.recom-products-box ul li:first-child {
+    margin-left:  0;
+}
+
+.recom-products-img {
+    width:  100%;
+    height:  100%;
+}
+
+.recom-products-img img {
+    width:  100%;
+    height:  100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.recom-products-img img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+/* Recommend Products end */
+/* Products Class start */
+div#products-class {
+    width:  100%;
+    height:  auto;
+    padding-bottom: 150px;
+}
+
+.products-kinds {
+    width: 100%;
+    height: auto;
+}
+
+#living-room,#bedroom-furniture {
+    background: #f9f9fa;
+}
+
+.products-kinds-box {
+    overflow:  hidden;
+    width:  1200px;
+    height:  auto;
+    margin:  0 auto;
+    padding: 133px 0 152px;
+}
+
+.products-kinds-top {
+    overflow:  hidden;
+    width: 100%;
+    height:  62px;
+}
+
+.products-kinds-title {
+    float:  left;
+    overflow:  hidden;
+    height:  100%;
+}
+
+.products-kinds-title p {
+    float:  left;
+    color:  #858585;
+    font-size:  14px;
+    text-align:  center;
+    line-height:  62px;
+}
+
+.products-kinds-titleE {
+    margin-left: 5px;
+}
+
+.products-kinds-titleC img {
+    margin-top: 10px;
+}
+
+.products-kinds-link {
+    float:  right;
+    overflow:  hidden;
+    height:  62px;
+    font-size:  14px;
+    line-height:  60px;
+    text-align: center;
+}
+
+.products-kinds-link ul {
+    overflow:  hidden;
+}
+
+.products-kinds-link-list {
+    float:  left;
+    padding: 0 18px;
+}
+
+.products-kinds-link-list a {
+    display:  block;
+    width:  100%;
+    height:  100%;
+    border-bottom: 2px solid transparent;
+    color: #979797;
+    box-sizing:  border-box;
+}
+
+.products-kinds-link-list a:hover {
+    border-bottom:  2px solid #000;
+    color: #000;
+}
+
+.products-kinds-content {
+    overflow:  hidden;
+    width:  100%;
+    height:  auto;
+    padding-top:  105px;
+}
+
+.products-kinds-content ul {
+    overflow:  hidden;
+}
+
+.products-kind-list {
+    float: left;
+    width: 300px;
+    height: 333px;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+li.products-kind-list:hover {
+    border: 3px solid #dcdcdc;
+}
+
+.products-kind-list-img {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 236px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-kind-list-img img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.products-kind-list-img img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.products-kind-name {
+    overflow:  hidden;
+    width:  100%;
+    height:  38px;
+}
+
+.products-kind-name a {
+    display:  block;
+    overflow: hidden;
+    width: 100%;
+    height:  100%;
+    padding: 0 20px;
+    color: #979797;
+    font-size:  14px;
+    line-height:  38px;
+    text-align:  center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-kind-name a:hover {
+    color: #22202b;
+}
+
+.products-kind-price {
+    overflow:  hidden;
+    width:  100%;
+    height:  40px;
+    color:  #22202b;
+    text-align:  center;
+}
+
+span.price-num {
+    font-size:  24px;
+    font-weight:  bold;
+    line-height: 40px;
+}
+
+.products-kind-more {
+    overflow:  hidden;
+    width: 163px;
+    height: 40px;
+    margin: 70px auto 0;
+    border: 3px solid #000;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-kind-more:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.products-kind-more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #22202b;
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.products-kind-more:hover a {
+    background:  #22202b;
+    color: #feeabd;
+}
+/* Products Class end */
